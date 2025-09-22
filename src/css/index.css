@@ -1,0 +1,106 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap';
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body { 
+    background: #f5f6fa;
+    color: #333;
+}
+header { 
+    background: linear-gradient(90deg, #1e90ff, #00bfff);
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+header h1 { 
+    font-size: 2rem;
+}
+main { 
+    max-width: 1000px;
+    margin: -40px auto 20px auto;
+    padding: 0 20px;
+}
+.product-card { 
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.product-card img { 
+    max-width: 200px;
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 60px;
+    margin-left: 40px
+}
+.product-info { 
+    flex: 1;
+}
+.product-info p { 
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.button { 
+    display: inline-block;
+    padding: 15px 25px;
+    background: #28a745;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+.button:hover { 
+    background: #218838;
+}
+h2 { 
+    margin-bottom: 15px;
+    color: #1e90ff;
+}
+.benefits{ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card { 
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    flex: 1 1 200px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.card h3 { 
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+.card p { 
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+section { 
+    margin-bottom: 40px;
+}
+footer { 
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .product-card img {
+        margin: 0 0 20px 0;
+    }
+}

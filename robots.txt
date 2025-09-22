@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://diogomaiaSESI.github.io/protetorsolar/sitemap_index.xml
